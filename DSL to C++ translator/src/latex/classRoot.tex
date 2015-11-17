@@ -1,0 +1,61 @@
+\hypertarget{classRoot}{\section{Root Class Reference}
+\label{classRoot}\index{Root@{Root}}
+}
+
+
+{\ttfamily \#include $<$A\-S\-T.\-h$>$}
+
+Inheritance diagram for Root\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classRoot}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRoot_a1041d19e10fd8219cb29664831fae8cf}{Root} (\hyperlink{classVarname}{Varname} $\ast$v, \hyperlink{classStmts}{Stmts} $\ast$s)
+\item 
+std\-::string \hyperlink{classRoot_a3fd0b715e1f0dfa2bb6b40b03f85c982}{unparse} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classRoot}{Root} puts the first line in the program, \char`\"{}main()\{stmts\}\char`\"{} into the syntax tree 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRoot_a1041d19e10fd8219cb29664831fae8cf}{\index{Root@{Root}!Root@{Root}}
+\index{Root@{Root}!Root@{Root}}
+\subsubsection[{Root}]{\setlength{\rightskip}{0pt plus 5cm}Root\-::\-Root (
+\begin{DoxyParamCaption}
+\item[{{\bf Varname} $\ast$}]{v, }
+\item[{{\bf Stmts} $\ast$}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classRoot_a1041d19e10fd8219cb29664831fae8cf}
+This constructor takes the main function name, and the statements in the F\-C\-A\-L program as its param 
+\begin{DoxyParams}{Parameters}
+{\em $\ast$v} & the varname in the first function of the program, i.\-e main \\
+\hline
+{\em $\ast$s} & the sequence of stmts objects which compose the F\-C\-A\-L program \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classRoot_a3fd0b715e1f0dfa2bb6b40b03f85c982}{\index{Root@{Root}!unparse@{unparse}}
+\index{unparse@{unparse}!Root@{Root}}
+\subsubsection[{unparse}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Root\-::unparse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classRoot_a3fd0b715e1f0dfa2bb6b40b03f85c982}
+We have an unparse string that returns the F\-C\-A\-L string after being parsed, this unparse string is implemented in almost every class 
+
+Implements \hyperlink{classNode}{Node}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+A\-S\-T.\-h\item 
+A\-S\-T.\-cpp\end{DoxyCompactItemize}

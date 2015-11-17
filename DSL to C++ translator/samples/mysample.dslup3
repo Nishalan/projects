@@ -1,0 +1,1 @@
+main(){Int sum;sum=0;Int num;num=1;Bool flag;flag=true;while(flag==true){sum=sum+num;num=num+1;if(num>10){flag=false;}}}
